@@ -1,0 +1,14 @@
+{
+  "name": "orangehrm",
+  "version": "1.0.0",
+  "description": "Test de pruebas",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress run --spec cypress/e2e/testPage.cy.js chrome"
+  },
+  "author": "Victor Rivas",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^12.17.1"
+  }
+}
